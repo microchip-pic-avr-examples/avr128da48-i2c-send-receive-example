@@ -5,7 +5,7 @@
         "metaDataVersion": "1.1.0",
         "name": "com.microchip.mcu8.studio.project.avr128da48-i2c-send-receive-example",
         "version": "1.0.2",
-        "displayName": "Send and Receive I2C messages",
+        "displayName": "Basic I2C Communication",
         "projectName": "avr128da48-i2c-send-receive-example",
         "shortDescription": "This repository provides a Microchip Studio solution with a bare metal code example for a basic I2C communication. The device is connected to a digital potentiometer.",
         "ide": {
@@ -20,7 +20,7 @@
 		],
         "dfp": {
             "name": "AVR-Dx",
-            "semverRange": "1.6.88"
+            "semverRange": "^1.6.88"
         },
         "configurator": {
             "name": "N/A",
@@ -43,13 +43,12 @@
                 "I2C"
             ]
         ],
-        "peripherals": [ "I2C"
+        "peripherals": [ 
+		"I2C"
         ],
         "keywords": [ 
-            "I2C communication",
-            "Send I2C data",
-            "Receive I2C data",
-            "Digital Potentiometer"
+            "Digital Potentiometer",
+			"Basic Communication"
         ],
 		"additionalData": {
 			"longDescription": {

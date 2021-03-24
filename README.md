@@ -1,8 +1,8 @@
-<a href="https://www.microchip.com" rel="nofollow"><img src="images/Microchip.png" alt="MCHP" width="300"/></a>
+[![MCHP](images/microchip.png)](https://www.microchip.com)
 
-# AVR128DA48 I2C Send Receive Code Example
+# Basic I2C Communication
 
-This repository provides an Atmel Studio solution with a bare metal code example for a basic I2C communication.
+This repository provides a Microchip Studio solution with a bare metal code example for a basic I2C communication.
 This example demonstrates the basic functionality of the TWI peripheral with a basic I2C communication.
 The device is connected to a digital potentiometer which communicates through an I2C interface. The device sends read commands to the I2C address of the potentiometer. Two read operations are required every iteration since the potentiometer has a 12 bit resolution.
 
@@ -13,7 +13,7 @@ More details and code examples on the AVR128DA48 can be found at the following l
 - [AVR128DA48 Project Examples in START](https://start.atmel.com/#examples/AVR128DA48CuriosityNano)
 
 ## Software Used
-- Atmel Studio 7.0.2397 or newer [(microchip.com/mplab/avr-support/atmel-studio-7)](https://www.microchip.com/mplab/avr-support/atmel-studio-7)
+- Microchip Studio 7.0.2397 or newer [(Microchip Studio for AVR® and SAM Devices)](https://www.microchip.com/en-us/development-tools-tools-and-software/microchip-studio-for-avr-and-sam-devices)
 - AVR-Dx 1.0.18 or newer Device Pack
 
 ## Hardware Used
@@ -34,7 +34,7 @@ TWI0:
 
 ## Operation
 
-1. Open the *I2C_example.atsln* solution in Atmel Studio
+1. Open the *I2C_example.atsln* solution in Microchip Studio
 
 2. Build the solution: right click on *I2C_example* solution and select Build
 <br><img src="images/AVR-DA_I2C_build.png" width="500">
