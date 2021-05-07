@@ -26,7 +26,7 @@ The AVR128DA48 Curiosity Nano Development Board is used as test platform
 The following configurations must be made for this project:
 
 TWI0:
-  - Configured in Master mode
+  - Configured in Host mode
   - Baud rate 100000
   - Using default pins (PA2 - SDA, PA3 - SCL)
   - Idle bus state
